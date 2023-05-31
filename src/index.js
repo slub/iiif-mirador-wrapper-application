@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React from "react";
+import ReactDOM from 'react-dom';
+import Viewer from "./lib/Viewer";
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+window.render = function (config) {
+  ReactDOM.render(
+    <Viewer {...config} />, document.getElementById(config.id)
+  );
+};

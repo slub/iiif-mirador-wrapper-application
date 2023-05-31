@@ -1,0 +1,102 @@
+$ahnRed: #CC0000;
+$grey: #555555; 
+$ahnRedHover: #8e0000;
+$white: #FFFFFF;
+$smartPicturesRed: #e40416;
+$smartPicturesGrey: #333333;
+$green: #9acd32;
+$black: #000000;
+$lightgrey: #ededed;
+$yellow: #fcba03;
+$lightgreen: #32c784;
+$blue: #403df2;
+
+/* styles for custom svg components */
+.logoAhn {
+    width: auto;
+    height: 100%;
+    
+    .st0 {
+        fill: $white;
+    }
+    
+    .st1 {
+        fill: $ahnRed;
+    }
+}
+
+.logoNFDI {
+    .st0 {
+        fill: $white;
+    }
+
+    .st1 {
+        stroke: $white;
+        stroke-width: 6px;
+    }
+}
+
+.imageWelcome {
+    .st0 {
+        fill: $white;  
+    }
+    
+    .st1 {
+        fill: $ahnRed;
+    }
+    
+    .st2 {
+        fill: $grey;
+        opacity: 0.4;
+    }
+    
+    .st3 {
+        fill: $grey;
+    }
+}
+
+.imageWorkspace {
+    .st0 {
+        fill: $white;
+    }
+
+    .st1 {
+        fill: $ahnRed;
+    }
+
+    .st2 {
+        fill: $green;
+    }
+
+    .st3 {
+        fill: $grey;
+    }
+}
+
+.sloganSmartPictures {
+    .st0 {
+        fill: $white;
+    }
+
+    .cls-1 {
+        fill: $ahnRed;
+    }
+
+    .cls-2 {
+        fill: $black
+    }
+}
+
+.imageAnnotation {
+    .st0 {
+        fill: $grey;
+    }
+
+    .st1 {
+        fill: $white;
+    }
+
+    .st2 {
+        fill: $ahnRed;
+    }
+}

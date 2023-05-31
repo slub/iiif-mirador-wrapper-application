@@ -1,0 +1,42 @@
+/* global styles to size viewer and menu in right size */
+body {
+    margin: 0;
+}
+
+body > div:first-of-type > header {
+    position: relative;
+    height: 44px;
+    width: 100%;
+}
+
+body > div:first-of-type > div:first-of-type {
+    height: calc(100% - 44px);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(112, 112, 112);
+}
+
+/* global mui component styles */
+
+/* overwrite font-family because the overwriting somehow is not working otherwise */ 
+.MuiFormLabel-root.MuiInputLabel-root {
+    font-family: 'Source Sans Pro' !important;
+}
+.MuiInputBase-input.MuiInput-input {
+    font-family: 'Source Sans Pro' !important;
+}
+
+/* set tooltip size global */
+.MuiTooltip-tooltip {
+    font-size: 12px !important;
+}
+
+div.MuiDialog-container > .MuiPaper-root > .MuiDialogContent-root > .MuiGrid-root.MuiGrid-container > .MuiGrid-root.MuiGrid-item > .MuiList-root > .MuiButtonBase-root.MuiListItemButton-root.Mui-selected {
+    background-color: rgba(66, 66, 66, 1) !important;
+}
+
+div.MuiDialog-container .MuiPaper-root .MuiDialogContent-root .MuiGrid-root p {
+    margin: 0;
+}

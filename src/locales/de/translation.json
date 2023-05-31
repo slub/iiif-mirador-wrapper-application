@@ -1,0 +1,61 @@
+{
+    "translation": {
+
+        "//_comment_buttons_":"buttons within the topbar",
+        "btn_hlp": "Hilfe",
+        "btn_usr": "Anmelden",
+        "btn_bmk": "Bildkollektion teilen",
+        "btn_snc": "Workspace synchronisieren",
+        "btn_col": "Workspace-Menü",
+        "btn_tsr": "Informationen zum Workspace",
+
+
+        "//_comment_workspace_menu_":"labels for workspace menu",
+        "mn_stng": "Einstellungen",
+        "mn_fnct_nme": "Workspace-Namen bearbeiten",
+        "mn_lnk_col": "Speichern & Freigeben",
+        "mn_nw_col": "Neuen Workspace öffnen",
+
+
+        "//_comment_login_logout_menu_":"labels for login-logout menu",
+        "mn_lgn": "Zum Login",
+        "mn_lgt": "Zum Logout",
+
+        "//_comment_textfield_bloblink_":"labels for textfield for bookmark and share",
+        "tf_bmk_lb": "URL",
+        "tf_bmk_btn_copy": "Link kopieren",
+        "tf_bmk_btn_suc": "Link kopiert",
+        "tf_lnk_col_lb": "URL",
+        "tf_lnk_col_btn_copy": "Link kopieren",
+        "tf_lnk_col_btn_suc": "Link kopiert",
+
+        "//_comment_textfield_edit_":"labels for textfield and error text for workspace name",
+        "tf_nme_lb": "Name des Workspace",
+        "tf_nme_err_min": "Min. {{min}} Zeichen",
+        "tf_nme_err_max": "Max. {{max}} Zeichen",
+        "tf_nme_btn_edit": "Bearbeiten",
+        "tf_nme_btn_save": "Speichern",
+        "tf_nme_btn_err": "Speichern nicht möglich",
+        "tf_nme_btn_suc": "Wird gespeichert",
+
+
+        "//_comment_dialog_controller_dialog_":"labels for  dialog controller",
+        "controller_dialog_demo": "Demo",
+
+        "//_comment_dialog_controller_dialog_demo_":"labels for demo dialog",
+        "dlg_header": "Lorem ipsum",
+        "dlg_tsr_short": "Lorem ipsum dolor sit amet, consecteturadipiscing elit. Vestibulum urna orci, mattis at nunc porta, mattis lobortis neque. Suspendisse ac dolor aliquam mi commodo consequat.",
+        "dlg_tsr_medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo eget neque laoreet tristique. Curabitur scelerisque nibh in erat finibus, non dignissim ipsum posuere. Nam nec nisl ac turpis tincidunt facilisis eget mollis mauris. Maecenas vestibulum finibus rutrum. Suspendisse potenti. Vivamus congue luctus molestie. Morbi iaculis volutpat mauris a.",
+        "dlg_tsr_large": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
+
+        "//_comment_toast_messages_":"labels for toasts",
+        "tst_nme_fnct_suc": "Änderungen wurden gespeichert",
+        "tst_col_new": "Neuer Workspace wurde angelegt",
+        "tst_col_suc": "Daten wurden erfolgreich geladen",
+        "tst_snc_updt": "Workspace wurde aktualisiert",
+        "tst_lgn_err": "Login erforderlich",
+        "tst_link_err": "Ungültiger Link! Es wird ein neuer Workspace angelegt",
+        "tst_data_err": "Fehler! Es wird ein leerer Workspace geöffnet"
+    }
+}

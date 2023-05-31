@@ -1,0 +1,61 @@
+{
+    "translation": {
+
+        "//_comment_buttons_":"buttons within the topbar",
+        "btn_hlp": "Help",
+        "btn_usr": "Sign in",
+        "btn_bmk": "Share collection",
+        "btn_snc": "synchronize workspace",
+        "btn_col": "Workspace menu",
+        "btn_tsr": "About workspace",
+
+
+        "//_comment_workspace_menu_":"labels for workspace menu",
+        "mn_stng": "Settings",
+        "mn_fnct_nme": "Change workspace name",
+        "mn_lnk_col": "Save & Share",
+        "mn_nw_col": "Open new workspace",
+
+
+        "//_comment_login_logout_menu_":"labels for login-logout menu",
+        "mn_lgn": "Sign in",
+        "mn_lgt": "Sign out",
+
+        "//_comment_textfield_bloblink_":"labels for textfield for bookmark and share",
+        "tf_bmk_lb": "URL",
+        "tf_bmk_btn_copy": "Copy link",
+        "tf_bmk_btn_suc": "Copy success",
+        "tf_lnk_col_lb": "URL",
+        "tf_lnk_col_btn_copy": "Copy link",
+        "tf_lnk_col_btn_suc": "Copy success",
+
+        "//_comment_textfield_edit_":"labels for textfield and error text for workspace name",
+        "tf_nme_lb": "workspace name",
+        "tf_nme_err_min": "At least {{min}} chars",
+        "tf_nme_err_max": "Limited to {{max}} chars",
+        "tf_nme_btn_edit": "Edit",
+        "tf_nme_btn_save": "Save",
+        "tf_nme_btn_err": "Save error",
+        "tf_nme_btn_suc": "Saved",
+
+
+        "//_comment_dialog_controller_dialog_":"labels for  dialog controller",
+        "controller_dialog_demo": "Demo",
+
+        "//_comment_dialog_controller_dialog_demo_":"labels for demo dialog",
+        "dlg_header": "Lorem ipsum",
+        "dlg_tsr_short": "Lorem ipsum dolor sit amet, consecteturadipiscing elit. Vestibulum urna orci, mattis at nunc porta, mattis lobortis neque. Suspendisse ac dolor aliquam mi commodo consequat.",
+        "dlg_tsr_medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo eget neque laoreet tristique. Curabitur scelerisque nibh in erat finibus, non dignissim ipsum posuere. Nam nec nisl ac turpis tincidunt facilisis eget mollis mauris. Maecenas vestibulum finibus rutrum. Suspendisse potenti. Vivamus congue luctus molestie. Morbi iaculis volutpat mauris a.",
+        "dlg_tsr_large": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
+
+        "//_comment_toast_messages_":"labels for toasts",
+        "tst_nme_fnct_suc": "Saved changes",
+        "tst_col_new": "Created new workspace",
+        "tst_col_suc": "Loading successfull",
+        "tst_snc_updt": "Workspace up to date",
+        "tst_lgn_err": "Login necessary",
+        "tst_link_err": "Invalid link! Open new workspace",
+        "tst_data_err": "Error! create empty workspace"
+    }
+}
