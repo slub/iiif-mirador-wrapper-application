@@ -13,8 +13,8 @@ to install all dependencies. For development run
 ```sh
 $ npm start
 ```
-See the [demo index.html]() for an example to set up the wrapper application.
-`iiif-mirador-wrapper-application` includes an instance of Mirador 3. Take a look at [Mirador 3 settings.js](https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js) to customize mirador. The iiif-mirador-wrapper-application comes with a limited set of adjustible configurations. See the [iiif-mirador-wrapper-application settings.js]() for possible modifications.
+See the [demo index.html](https://github.com/slub/iiif-mirador-wrapper-application/blob/main/demo/src/index.html) for an example to set up the wrapper application.
+`iiif-mirador-wrapper-application` includes an instance of Mirador 3. Take a look at [Mirador 3 settings.js](https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js) to customize mirador. The iiif-mirador-wrapper-application comes with a limited set of adjustible configurations. See the [iiif-mirador-wrapper-application settings.js](https://github.com/slub/iiif-mirador-wrapper-application/blob/main/src/config/settings.js) for possible modifications.
 ## Application dependencies of `iiif-mirador-wrapper-application`
 ### Integration of a jsonBlob server
 Some features of the wrapper application require a [jsonBlob](https://github.com/tburch/jsonblob) instance to store and retreive data. By default, the wrapper application uses a [demo jsonBlob server](https://jsonblob.com/) which is cleared regularly.
@@ -22,13 +22,13 @@ Some features of the wrapper application require a [jsonBlob](https://github.com
 ### Customizable navigation bar
 Icons or extern routings to an organization can be located within the navigation bar. 
 ### Authentication
-The wrapper application supports different authentication states. For demo simply adapt the [demo index.html]() by adding ```authenticated: true```.
+The wrapper application supports different authentication states. For demo simply adapt the [demo index.html](https://github.com/slub/iiif-mirador-wrapper-application/blob/main/demo/src/index.html) by adding ```authenticated: true```.
 ### Dialog management tool
 The dialog management tool serves space to present textual information, e.g. step-by-step instructions on how to use the application.
 ### Share Collection
-[Mirador 2]() comes with a share collection feature which allowed users to create a snapshot of their current mirador and share it with others. The `iiif-mirador-wrapper-application` provides the feature so it can be used with mirador 3 again.
+[Mirador 2](https://github.com/projectmirador/mirador2) comes with a share collection feature which allowed users to create a snapshot of their current mirador and share it with others. The `iiif-mirador-wrapper-application` provides the feature so it can be used with mirador 3 again.
 ### Workspaces
-The `iiif-mirador-wrapper-application` comes with a feature to store information about the current workspace and update changes in-time. This happens by synchronizing the client data and the stored data at the jsonBlob server after every change on client side. This allows multiple users to work on the same workspace. To test the workspaces add ```authenticated: true``` to [demo index.html]().
+The `iiif-mirador-wrapper-application` comes with a feature to store information about the current workspace and update changes in-time. This happens by synchronizing the client data and the stored data at the jsonBlob server after every change on client side. This allows multiple users to work on the same workspace. To test the workspaces add ```authenticated: true``` to [demo index.html](https://github.com/slub/iiif-mirador-wrapper-application/blob/main/demo/src/index.html).
 ## Credits
 ### NFDI4Culture
 The Consortium for Research Data on Material and Immaterial Cultural Heritage (NFDI4Culture)
